@@ -1,0 +1,60 @@
+.carousel-caption {
+  
+  color: #2c2a2a;
+  font-style: italic;
+  padding: 20px; 
+  position: absolute; 
+  top: 40%; 
+  left: 0;
+  transform: translateY(-50%); 
+  width: 100%; 
+  font-size: 30px; 
+  text-align: left; }
+
+  .carousel-caption p{
+    margin-right: 1000px;
+    
+    
+  }
+
+  .carousel-caption button{
+    margin-right:1000px ;
+    transition: transform 0.3s background-color o.3s;
+  }
+  .carousel-caption button:hover{
+    transform: scale(1.03);
+    background: #cf7979ee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  
+  }
+
+.carousel-inner {
+  height: 500px; /* Set a fixed height for the carousel */
+}
+.carousel-item img {
+  height: 100%; /* Make the images fill the height of the carousel */
+  width: 100%; /* Make the images fill the width of the carousel */
+  object-fit: cover; /* Maintain aspect ratio and prevent stretching */
+}
+
+
+
+@media (max-width: 768px) {
+  .carousel-caption {
+    font-size: 20px; /* Decrease font size for smaller devices */
+    padding: 10px; /* Decrease padding for smaller devices */
+    top: 70%; /* Adjust position for smaller devices */
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-caption {
+    font-size: 16px; /* Further decrease font size for extra small devices */
+    top: 80%; /* Further adjust position for extra small devices */
+  }
+}
+
+
+
+  
+  

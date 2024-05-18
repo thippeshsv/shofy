@@ -1,0 +1,58 @@
+.about{
+  text-align: center;
+  margin-top: 30px;
+
+
+   
+}
+.about h2{
+    color: rgb(114, 67, 10);
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-weight: 600;
+    
+}
+.about hr{
+    width: 30%;
+    margin: 20px auto;
+    border: none;
+    border-top: 2px solid #333;
+}
+.about p{
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
+    color: rgb(15, 104, 172);
+    font-weight: bolder;
+    
+}
+.contactUs h3{
+    margin-top: 30px;
+}
+
+
+.thanku h1{
+    margin-top: 40px;
+    color: #00000092;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .about h2 {
+      font-size: 20px;
+      margin-top: 30px;
+    }
+  
+    .about hr {
+      width: 50%;
+    }
+  
+    .about p {
+      font-size: 16px;
+    }
+  
+    .thanku h1 {
+      margin-top: 30px;
+    }
+  }

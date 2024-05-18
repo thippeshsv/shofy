@@ -1,0 +1,143 @@
+.checkout{
+   /* width: 600px; */
+display: flex;
+   height: 130vh;
+   padding: 80px;
+   margin: 0px 100px;
+   width: 1200px;
+ 
+}
+
+.container-fluid{
+   width: 580px;
+   max-width: 580px;
+   height: 100%;
+   max-height: 600px; 
+   margin-right: 200px;
+   /* padding: 40px 60px; */
+   margin-bottom: 40px;
+   
+
+
+}
+.container-fluid label{
+    display: block;
+    /* margin: 20px; */
+    font-size: 25px;
+    margin-top: 10px;
+    padding-top: 20px;
+    
+}
+
+/* .total{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    gap: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    padding-top: 10px;
+}
+.total p{
+    font-size: 20px;
+    font-weight: 600;
+    align-items: center;
+} */
+
+.checkout-right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+
+    
+}
+
+
+
+.checkout-total{
+    margin-top: 70px;
+    display: flex;
+    gap: 250px;
+  
+}
+.checkout-total p{
+
+    font-size: 30px;
+    font-weight: bolder;
+    color: brown;
+    
+}
+ .paymentOptions{
+    width: 500px;
+    display: flex;
+    gap: 100px;
+    margin-top: 20px;
+    /* width: 100%; */
+    /* background: rgb(44, 148, 140); */
+    /* justify-content: space-between; */
+
+}
+/*
+.paymentOptions label{
+    max-width: 200px;
+    width: 100%;
+
+} */
+
+.paymentOptions label{
+    max-width: 150px;
+    width: 100%;
+    font-weight: bolder;
+    /* font-size: 20px; */
+
+}
+.form-select{
+    width: 400px;
+}
+
+.paymentOptions option{
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.cardetails{
+   margin-top: 20px;
+
+
+}
+
+.cardetails{
+    display: none;
+}
+
+.upiId{
+    display: none;
+}
+
+
+@media(max-width: 1280px){
+    .checkout{
+        display: grid;
+    }
+
+    .checkout-right {
+        width: 600px;
+        margin-bottom: 250px;
+        margin-left: 250px;
+    }
+
+
+}
+@media(max-width: 1024px){
+    .checkout{
+        margin-right: 600px;
+    }
+}
+
+@media(max-width: 800px){
+    .checkout{
+        display: grid;
+        margin-right: 200px;
+    }
+   
+}

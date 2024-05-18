@@ -1,0 +1,36 @@
+.adminPage{
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  margin-top: 40px;
+
+}
+.admin-form {
+    width: 800px; /* Adjust width as needed */
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .admin-form-input {
+    margin-bottom: 15px;
+  }
+
+  .admin-form-input label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .admin-form-input input,
+.admin-form-input select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
